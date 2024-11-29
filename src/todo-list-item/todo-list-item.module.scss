@@ -1,0 +1,46 @@
+
+
+.wrap {
+
+  .li {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 9px;
+    margin-bottom: 10px;
+    .text {
+      color: red;
+      font-size: 14px;
+    }
+  }
+  .spanFlex {
+    display: flex;
+    gap: 10px;
+    .input {
+      color: green;
+    }
+    .span {
+      color: orange;
+    }
+    .span2 {
+      color: red;
+    }
+  }
+  .end {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    button {
+      width: 100%;
+      font-size: 14px;
+      height: 40px;
+      border-radius: 6px;
+      background-color: #f30000;
+      color: #fff;
+      border: none;
+    }
+  }
+}

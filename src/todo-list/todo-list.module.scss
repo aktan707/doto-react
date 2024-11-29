@@ -1,0 +1,22 @@
+
+
+.wrap {
+  width: 600px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px auto 0;
+  .flexBtn {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    button {
+      padding: 8px 42px;
+      border: none;
+      background-color: #17A3B7;
+      color: white;
+      border-radius: 6px;
+    }
+  }
+}
